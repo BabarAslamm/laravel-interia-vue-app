@@ -1,4 +1,5 @@
 <template>
+   <Head title=" - About"></Head>
     Tell me about your self {{ name }}
 </template>
 

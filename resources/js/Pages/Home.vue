@@ -1,11 +1,9 @@
 <script setup>
-import Layout from '../Layouts/Layout.vue';
 
-defineOptions({'layout' : Layout})
 </script>
 
 <template>
-
+<Head title=" - Home"></Head>
 <h1 class="text-1xl font-bold underline">
     Hello world!
   </h1>
