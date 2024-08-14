@@ -11,4 +11,8 @@
     <br>
     <b>{{ $page.props.data }}</b>
 
+
+
+    <Link class="mt-[600px] block" :href="route('home')" preserve-scroll>Refresh</Link>
+
 </template>
