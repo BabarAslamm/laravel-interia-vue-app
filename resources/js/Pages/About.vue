@@ -1,6 +1,8 @@
 <template>
-   <Head title=" - About"></Head>
+   <Head :title="` - ${$page.component}`"></Head>
     Tell me about your self {{ name }}
+    <br>
+    <b>{{ $page.props.data }}</b>
 </template>
 
 <script setup>
