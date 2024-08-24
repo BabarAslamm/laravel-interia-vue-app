@@ -13,8 +13,14 @@ const form = useForm({
 const submit = () =>{
     console.log('form submitted')
     console.log('form', form)
-    form.post(route('register.store'));
-   onError : form.reset('password', 'password_confirmation')
+    form.post(route('register.store'), {
+
+        onError : () => form.reset('password', 'password_confirmation')
+
+
+
+    });
+
 }
 </script>
 
