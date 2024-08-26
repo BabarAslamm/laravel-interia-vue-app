@@ -1,5 +1,5 @@
 <script setup>
-import { ref, defineProps } from 'vue';
+
 const model = defineModel({
     type: null,
     required: true,

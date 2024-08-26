@@ -12,8 +12,9 @@ import { Link } from "@inertiajs/vue3";
 
                 <div class="space-x-6">
                     <Link class="nav-link" :href="route('register')">Register</Link>
+                    <Link class="nav-link" :href="route('login')">Login</Link>
                 </div>
-
+                
             </nav>
         </header>
 
